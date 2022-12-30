@@ -45,6 +45,7 @@ O processo de instalação do app e suas dependências no Docker se inicia.
 
 </br>Ainda no mesmo terminal de comando execute o comando:
 </br>
+
 `docker container ps`
 <div align="center">
 <img width="455" src="https://i.imgur.com/QHRmBSi.png">
