@@ -32,6 +32,7 @@ Não implementei nenhuma verificação de segurança ou validação de usuário 
 
 * Então na pasta raiz desta aplicação execute esta linha de comando abaixo:
 </br>
+
 `docker-compose up -d`
 <div align="center">
 <img width="455" src="https://i.imgur.com/uHD5BmR.png">
