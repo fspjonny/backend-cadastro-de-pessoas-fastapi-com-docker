@@ -1,4 +1,4 @@
-# CRUD simples com FastAPI rodando em container Docker com Uvicorn.
+# CRUD simples com FastAPI rodando em container Docker com Uvicorn + Testes Unitários com Pytest.
 Esta é uma API bem simples com as funções básicas do processo de cadastro e manutenção de pessoas.</br>
 Não utilizei nenhum banco de dados para armazenamento dos dados, apenas usei o BaseModel para criar uma classe do modelo de dados.</br>
 Não implementei nenhuma verificação de segurança ou validação de usuário ou de dados, apenas quis demonstrar a facilidade para se criar uma API básica com poucas linhas e publicando e executando a app em um container **Docker**.
@@ -11,6 +11,7 @@ Não implementei nenhuma verificação de segurança ou validação de usuário 
 
 * [Python](https://www.python.org/)
 * [FastAPI](https://fastapi.tiangolo.com/)
+* [Pytest](https://docs.pytest.org/)
 * [Uvicorn](https://www.uvicorn.org/)
 * [Docker](https://www.docker.com/)
 
@@ -55,4 +56,11 @@ O processo de instalação do app e suas dependências no Docker se inicia.
 O resultado é esta página inicial vista abaixo!
 <div align="center">
 <img width="455" src="https://i.imgur.com/ePGJWQu.png">
+</div>
+
+## Para executar os testes via Docker Desktop:
+Com o container da aplicação em execução, abra um terminal de comandos e vá para pasta `proj` dentro do container e execute a linha de comando: `pytest -vv`.
+</br>Os testes serão executados conforme a figura mostra abaixo.
+<div align="center">
+<img width="455" src="https://i.imgur.com/DcoCg8a.png">
 </div>
